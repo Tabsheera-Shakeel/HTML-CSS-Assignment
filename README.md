@@ -1,7 +1,9 @@
 # HTML-CSS Assignment Tasks
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo" width="100">
-<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo" width="150">
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo" width="100"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS Logo" width="100"/>
+</p>
 
 ## 📄 About
 
@@ -9,7 +11,7 @@ This repository contains various **HTML and CSS assignments** designed to help w
 
 ## 📁 Task Breakdown
 
-Each folder (`Task-1/` to `Task-8/`) contains a different assignment that focuses on specific concepts such 
+Each folder (`Task-1/` to `Task-8/`) contains a different assignment that focuses on specific concepts such as:
 
 ## 🚀 How to Use
 
