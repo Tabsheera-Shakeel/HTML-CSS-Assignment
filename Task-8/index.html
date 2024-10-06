@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>c\Chapter-8</title>
+</head>
+<body>
+    <span>
+       <nav style="display: flex; align-items: center;justify-content: space-around; background-color: rgb(6, 160, 6); margin: 15px; margin-left: 5px; color: white;">
+        <img  src="data:image/png;base64,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" alt="pana_logo" width="150px">
+       
+        <a style="color: white; font-size: 20px; margin:9px;" href="#home">HOME</a>
+       <a style="color: white; font-size: 20px; margin:9px;" href="#about">ABOUT</a>
+       <a style="color: white; font-size: 20px; margin:9px;" href="#team">TEAM</a>
+       <a style="color: white; font-size: 20px; margin:9px;" href="#contact">CONTACT</a>
+       </nav>
+    </span>
+
+    <div style=" font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction:column;justify-content: center; align-items: center; margin-top: 90px;">
+        <h1>Web 3.0 Ownership Economy Platform For <br>
+            Founders, Developers & Investors</h1>
+        <h2 style="color: rgb(95, 94, 94);">marketplace for modern app templates & APIs</h2>
+        <button style="background-color: rgb(6, 160, 6); color: white; border: none; width: 100px; height: 35px; border-radius: 8px;">Discover</button>
+     </div>
+
+     <br><br>
+     <div style="display: flex; align-items: center;justify-content: center;">
+     <iframe  width="560" height="315" src="https://www.youtube.com/embed/eTF9vqKNLek?si=SvdXDOICQNPsmrxv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+    <div style=" font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; display: flex; flex-direction:column;justify-content: center; align-items: center; margin-top: 90px;"></div>
+      
+   <section id="about">
+    <h1 style="display: flex; justify-content: center; gap: 20px;  margin-bottom: 80px; animation: fadeIn;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Why Launch With Us</h1>
+        
+             <div style="display: flex; justify-content: center; gap: 20px; margin-top: -30px;">
+
+               <div style="border:2px solid #15c95a; padding: 20px; border-radius:10px; margin: 12px; width: 30%; box-shadow: 0 4px 10px black;">
+                <h2>Raise funds</h2>
+                <p>Establish a DAO for your software product and <br>
+                    raise funds by issuing tokens to investors.</p>
+            </div>
+            <div style="border:2px solid #15c95a; padding: 20px; margin: 30px; border-radius:10px; width: 30%; box-shadow: 0 4px 10px black;">
+                <h2>build a community</h2>
+                <p>Build a community of Investors, Customers and <br>
+                    Developers around your software products.</p>
+            </div>
+            <div style="border:2px solid #15c95a; padding: 20px; border-radius:10px; margin: 12px; width: 30%; box-shadow: 0 4px 10px black;">
+                <h2>build a community</h2>
+                <p>Customers become owners when they buy a product <br>
+                     or invest money or assets in the system.</p>
+            </div>
+        </div>
+    </div> 
+
+     <hr style="margin-top: 100px;">
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px;  margin-bottom: 35px; animation: fadeIn;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+        <h1 id="#features" style="margin-bottom: 35px;font-family:Segoe UI, Tahoma, Geneva, Verdana, sans-serif;">Multi-Sided Ownership Platform</h1>
+       <img src="https://www.panacloud.com/imgs/multisidedSVG.svg" width="800" height="650">
+    </div>
+ 
+   <div style="background-color: rgb(230, 227, 227);height: 470px;">
+    <h1 style="display: flex; justify-content: center; gap: 20px; margin-bottom: 100px;  animation: fadeIn;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Marketplace Where You Can Buy, Sell & Invest</h1>
+        
+             <div style="display: flex; justify-content: center; gap: 20px; margin-top: -30px;">
+
+               <div style="border:2px solid #15c95a; padding: 20px; border-radius:10px; width: 30%; box-shadow: 0 4px 10px black;">
+                <h2>Application Programming Interface (API)</h2>
+                <p>Application Programming Interface (API) allows a business to monetize its data and services, and to turn itself into a platform. It enables businesses to profit off their APIs and create business models around them.</p>
+            </div>
+            <div style="border:2px solid #15c95a; padding: 20px; border-radius:10px; width: 30%; box-shadow: 0 4px 10px black;">
+                <h2>Templates</h2>
+                <p>A template saves time and allows you to benefit from the work of others. Vertical full stack contemporary application templates and metaverse experiences are the focus.</p>
+            </div>
+            <div style="border:2px solid #15c95a; padding: 20px; border-radius:10px; width: 30%; box-shadow: 0 4px 10px black;">
+                <h2>Artificial Intelligence Models</h2>
+                <p>Sell pre-traind AI models. Allow users to run your models for long term by licensing them or for short term as highly scalable APIs.</p>
+            </div>
+            <div style="border:2px solid #15c95a; padding: 20px; border-radius:10px; width: 30%; box-shadow: 0 4px 10px black;">
+                <h2>Support Services</h2>
+                <p>Receive customized support and maintenance services for APIs, templates and AI models.</p>
+            </div>
+        </div>
+    </div> 
+    </section>
+
+    <section id="team">
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px;  margin-bottom: 35px; animation: fadeIn;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+      
+        <h1 style=" margin-top: 100px; font-family:Segoe UI, Tahoma, Geneva, Verdana, sans-serif;">Our Executive Team</h1>
+       <p style="margin-bottom: 30px;font-family:Segoe UI, Tahoma, Geneva, Verdana, sans-serif;font-size: 20px; color:  rgb(95, 94, 94);">The Panacloud team has been selected after an extensive filtering process and has been trained and mentored extensively.<br>
+         More than 100,000 candidates were screened using exams, projects, and interviews. Extensive technical skills and knowledge, 
+         <br>extreme hard work, selfless dedication, ethics, lack of any fear of failure, and a desire to contribute towards the betterment 
+         <br> <span style="display: block; text-align: center;">of mankind are our guiding principles.</span></p>
+    </div>
+
+     <div style="display: flex; justify-content: center; gap: 20px; margin-top: -30px;">
+        <div style="border: 1px solid #15c95a; padding: 20px; border-radius: 10px; width: 30%; margin: 90px; box-shadow: 0 4px 10px #15c95a;">
+            <img src="https://www.panacloud.com/imgs/team/ziaKhan.jpg" width="200" height="150">
+            <h2>Zia Khan</h2>
+            <p>Chief Executive Officer</p>
+            <p>CEO of Panacloud. Visionary and software developer with 20+ years of expertise in cloud and serverless computing, software design, project management, and API and App development</p>
+            <br><br><br>
+            <img src="https://static-00.iconduck.com/assets.00/linkedin-icon-1024x1024-jz44rpiz.png" alt="" width="40px" height="30px">
+            <img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png" alt=""  width="60px" height="30px">
+        </div> 
+    
+        <div style="border: 1px solid #15c95a; padding: 20px; border-radius: 10px; width: 30%; margin: 90px; box-shadow: 0 4px 10px #15c95a;">
+            <img src="https://www.panacloud.com/imgs/team/hiraKhan.jpeg" width="200" height="150">
+            <h2>Hira Khan</h2>
+            <p>Chief Operating Officer</p>
+            <p>COO of Panacloud. Oversees strategic and operational delivery activities of the company. Develops and implements business strategies, plans and procedures. Motivates team members to encourage maximum performance and meet production & delivery targets.</p>
+            <br>
+            <img src="https://static-00.iconduck.com/assets.00/linkedin-icon-1024x1024-jz44rpiz.png" alt="" width="40px" height="30px">
+            <img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png" alt=""  width="60px" height="30px">
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: center; gap: 20px; margin-top: -30px;">
+        <div style="border: 1px solid #15c95a; padding: 20px; border-radius: 10px; width: 30%; margin: 90px; box-shadow: 0 4px 10px  #15c95a;">
+            <img src="https://www.panacloud.com/imgs/team/zeeshan.jpeg" width="200" height="150">
+            <h2>Zeeshan Hanif</h2>
+            <p>Chief Technology Officer</p>
+            <p>CTO of Panacloud. Modern full-stack cloud developer with extensive experience in developing cloud-based applications, software design, project management. Expert in Blockchain technologies, DeFi and token economics.</p>
+            <br>
+            <img src="https://static-00.iconduck.com/assets.00/linkedin-icon-1024x1024-jz44rpiz.png" alt="" width="40px" height="30px">
+            <img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png" alt=""  width="60px" height="30px">
+        </div> 
+    
+        <div style="border: 1px solid #15c95a; padding: 20px; border-radius: 10px; width: 30%; margin: 90px; box-shadow: 0 4px 10px  #15c95a;">
+            <img src="https://scontent.fkhi16-1.fna.fbcdn.net/v/t39.30808-6/430081605_122127158786147272_9053568418639469244_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=yCTm_6PnKkAQ7kNvgFjkc1P&_nc_ht=scontent.fkhi16-1.fna&_nc_gid=Aqx1s1OJCvQRN6OX_CdXr4v&oh=00_AYB90wurPDSmBFH0dzmhCsqBegKHWEklOAmgkJwCgsJ_nQ&oe=66FDA49D" width="200" height="150">
+            <h2>Daniyal Nagori</h2>
+            <p>Architect</p>
+            <p>Responsible for overseeing Panacloud's cloud computing and Blockchain strategies. Extensive experience in Amazon Web Services, Ethereum, and DeFi services.</p>
+            <br>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzT_N9EffsxOqZMWDLSFFsYfE5ms9jvsyNZA&s" alt="" width="40px" height="30px">
+            <img src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png" alt=""  width="60px" height="30px">
+        </div>
+    </div>
+</section>
+
+<br>
+<footer>
+    <section id="contact" style="padding: 50px 0; background-color: #f5f2f2;">
+      <div style="text-align: center;">
+        <h1 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Contact Us</h1> 
+              <p style="margin-bottom: 30px;font-family:Segoe UI, Tahoma, Geneva, Verdana, sans-serif;font-size: 20px; color:  rgb(95, 94, 94); max-width: 800px; margin: 0 auto;">For inquiries regarding our Web 3.0 Ownership Economy Platform, which serves founders,<br> developers, and investors, please reach out.
+                  We provide a marketplace for modern app <br>templates and APIs, and our team is ready to assist with any questions or 
+                  <span style="display: block; text-align: center;">partnership opportunities</span>
+              </p>
+       </div>
+       <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-top: 40px;">
+
+      <div style="width: 45%; min-width: 300px; margin-top: 20px;">
+        <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; align-items: center; margin-bottom: 40px; margin-left: 40%;">Get In Touch</h2>
+        <form action="#" style="display: flex; flex-direction: column; gap: 20px;">
+     <input type="text" name="name" placeholder="Your Name" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px;" required>
+     <input type="text" name="email" placeholder="Your Email" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px;" required>   
+      <textarea name="message" rows="5" placeholder="Your Message" style="padding: 10px; font-size: 16px; border: 1px solid #ccc; border-radius: 5px;" required></textarea>
+      <button style="background-color: rgb(6, 160, 6); color: white; padding: 10px; font-size:18px; border: none; border-radius: 5px;">Submit</button>
+
+        </form>
+      </div>
+      
+      <div style="width: 45%; min-width: 300px;">
+        <h2 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; align-items: center;margin-left: 40%;">Our Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14485.890027161739!2d67.04832000000002!3d24.813509899999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33c5361ff85a5%3A0x2401821560d53462!2sPanacloud%20Pvt.%20Ltd.%20Pakistan!5e0!3m2!1sen!2s!4v1727456176068!5m2!1sen!2s"
+        style="width: 100%; height: 300px; border: none; margin-top: 40px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      </div>
+      <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin-left: 40%; margin-top: 40px; color: rgb(104, 104, 104);">Powered by Tabsheera Shakeel🤍</p>
+
+</section>
+
+</footer>   
+</body>
+</html>

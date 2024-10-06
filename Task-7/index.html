@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter-7</title>
+</head>
+<body>
+    <form>
+        <h1>Form</h1>
+        <fieldset>
+            <legend >
+                <label>Your Details:</label>
+            </legend>
+            <p>Name: <input type="text">
+                <br> <br>
+               Email: <input type="email"/>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                <label>Your Reviews:</label>
+            </legend>
+            <p>How did you hear about us? 
+                <select id="dropdown">
+                    <option value="option-1">Google</option>
+                    <option value="option-2">Facebook</option>
+                    <option value="option-3">Linkedin</option>
+                    <option value="option-4">Instagram</option>
+                </select>
+                <br> <br>
+                would you like to visit again?
+                Yes
+                <input type="radio" value="yes" name="question">
+                No
+                <input type="radio" value="no" name="question">
+                Maybe
+                <input type="radio" value="maybe" name="question">
+                <br><br>
+                comments:
+                <br>
+                <textarea rows="3" cols="30" name="comments"></textarea>
+                <br><br>
+                <input type="checkbox">
+                Sign me up for email updates
+                <br>
+                <button>Submit reviews</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
