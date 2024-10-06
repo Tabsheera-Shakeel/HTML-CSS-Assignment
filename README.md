@@ -1,6 +1,3 @@
-Here's a simple yet effective README for your HTML-CSS Assignment repository. You can modify it to fit your exact requirements:
-
----
 
 # HTML-CSS Assignment Tasks
 
